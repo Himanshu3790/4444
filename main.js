@@ -23,7 +23,7 @@ function gotResults(error,results){
         document.getElementById("accuracy").innerHTML= "Accuracy -" + (results[0].confidence*100).toFixed(2);
         img1=document.getElementById("aliens01");
         img2=document.getElementById("aliens02");
-        img3-document.getElementById("aliens03");
+        img3=document.getElementById("aliens03");
         img4=document.getElementById("aliens04");
         
         if (results[0].label == "Clap" ){
